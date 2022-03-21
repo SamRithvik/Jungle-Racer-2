@@ -126,14 +126,14 @@ class Game {
            this.update(gameState);
            // uncomment correct one out of these to increment the rank of a player by 1 and update it to the database.
            
-            player.rank += 1;
-            player.updateanimalsAtEnd(player.rank);
+           // player.rank += 1;
+           // player.updateanimalsAtEnd(player.rank);
 
           //  rank += 1;
           //  Player.updateanimalsAtEnd(rank);
 
-            //player.rank += 1;
-            //Player.updateanimalsAtEnd(player.rank);
+            player.rank += 1;
+            Player.updateanimalsAtEnd(player.rank);
 
 
            player.update();
